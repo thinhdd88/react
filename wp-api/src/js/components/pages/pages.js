@@ -36,13 +36,13 @@ class PageDetail extends React.Component {
   render() {
       return (
         <div className="container cms-page-content">
-        {
-          this.state.pageContent.map(function(item, key){
-            return (
-                <div key={key} className="description" dangerouslySetInnerHTML={ {__html: item.content.rendered} } />
-            )
-          })
-        }
+          {
+            this.state.pageContent.map(function(item, key){
+              return (
+                  <div key={key} className="description" dangerouslySetInnerHTML={ {__html: item.content.rendered} } />
+              )
+            })
+          }
         </div>
       );
   }

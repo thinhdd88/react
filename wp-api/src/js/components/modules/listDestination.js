@@ -47,7 +47,7 @@ class ListAttraction extends Component {
 		}
 
     var masonryOptions = {
-        transitionDuration: 0
+        transitionDuration: '0.8s'
     };
 
     return ( 
